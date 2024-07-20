@@ -1,8 +1,8 @@
 const String st = '''
 import 'package:flutter/material.dart';
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class {{WidgetName}} extends StatelessWidget {
+  const {{WidgetName}}({Key? key}) : super(key: key);
  
   @override
   Widget build(BuildContext context) {

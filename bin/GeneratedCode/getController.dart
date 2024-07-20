@@ -1,20 +1,20 @@
-String controller = '''
+String controllerTemplate = '''
 import 'package:get/get.dart';
 
-class Controller extends GetxController {
-	
+class {{controllerName}} extends GetxController {
+  
   @override
   void onInit() {
     super.onInit();
   }
 
   @override
-  void onReady() { 
+  void onReady() {
     super.onReady();
   }
 
   @override
-  void onClose() { 
+  void onClose() {
     super.onClose();
   }
 

@@ -1,14 +1,14 @@
 String stFul = '''
 import 'package:flutter/material.dart';
 
-class MyApp extends StatefulWidget {
-  const MyApp({Key? key}) : super(key: key);
+class {{WidgetName}} extends StatefulWidget {
+  const {{WidgetName}}({Key? key}) : super(key: key);
 
   @override
-  _MyAppState createState() => _MyAppState();
+  _{{WidgetName}}State createState() => _{{WidgetName}}State();
 }
 
-class _MyAppState extends State<MyApp> {
+class _{{WidgetName}}State extends State<{{WidgetName}}> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
           "GeeksforGeeks",
           textAlign: TextAlign.start,
         ),
-      ), // AppBar
+      ),
       body: const Center(
         child: Text(
           "StateFul Widget",
