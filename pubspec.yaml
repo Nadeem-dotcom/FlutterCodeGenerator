@@ -1,17 +1,14 @@
-name: classic
+name: flutter_code_generator
 description: A sample command-line application.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
 
 executables:
   generator:
 
 environment:
-  sdk: ^3.4.4
+  sdk: '>=2.12.0 <4.0.0'
 
-# Add regular dependencies here.
 dependencies:
-  # path: ^1.8.0
 
 dev_dependencies:
   lints: ^3.0.0
