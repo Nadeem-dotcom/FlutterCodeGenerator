@@ -16,7 +16,7 @@ class _{{WidgetName}}State extends State<{{WidgetName}}> {
         leading: const Icon(Icons.menu),
         backgroundColor: Colors.green,
         title: const Text(
-          "GeeksforGeeks",
+          "App Bar",
           textAlign: TextAlign.start,
         ),
       ),
